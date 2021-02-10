@@ -170,7 +170,10 @@ export default {
 
 ### 추가한 Vue Component 구조
 
-### 추가한 컴포넌트간 데이터 송수신 
+### 추가한 컴포넌트간 데이터 송수신
+
+### Result
+![image](https://user-images.githubusercontent.com/50390923/107531604-5bbf5e00-6c00-11eb-8d07-0b5dbb9ee883.png)
 
 ## 참고한 사이트 
 
