@@ -174,6 +174,7 @@ export default {
 
 ### Result
 - 두번째 세번째 그래프는 데이터가 하드코딩 되어있습니다. 
+
 ![image](https://user-images.githubusercontent.com/50390923/107531604-5bbf5e00-6c00-11eb-8d07-0b5dbb9ee883.png)
 
 ## 참고한 사이트 
