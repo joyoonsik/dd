@@ -169,6 +169,7 @@ export default {
 2. `mounted`기능을 통해 그래프가 그려집니다.
 
 ### 현재 Vue Component 구조 
+![image](https://user-images.githubusercontent.com/50390923/107538090-f0c55580-6c06-11eb-94e0-49c73ca0e2f1.png) 
 
 ### 추가한 컴포넌트간 데이터 송수신
 
