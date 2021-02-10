@@ -172,9 +172,9 @@ export default {
 ![image](https://user-images.githubusercontent.com/50390923/107538090-f0c55580-6c06-11eb-94e0-49c73ca0e2f1.png) 
 
 ### 컴포넌트간 데이터 송수신
-- `created`에서 `created`로 `created`을 통해 json데이터를 넘겨받는다. 
-- `created`에서 `created`로 props기능을 통해 그래프 그리기에 필요한 json데이터를 넘겨받는다. 
-- `created`에서 `created`로 바로 데이터를 넘겨받지 않은 이유는 나중에 다른 그래프를 그려야 할 수 있기 때문에 `created`기능을 많이 쓰는것은 Vue구조가 복잡해 질 수 있기때문에 props를 이용해 그래프를 그리는것을 지향했다.
+- `ModelDesignComp`에서 `TimeSeriesComp`로 `EventBus`를 통해 json데이터를 넘겨받는다. (서로 형제 컴포넌트이기 때문에 EventBus 사용)
+- `TimeSeriesComp`에서 `LineChart`로 props기능을 통해 그래프 그리기에 필요한 json데이터를 넘겨받는다. 
+- (`ModelDesignComp`에서 `LineChart`로 바로 데이터를 넘겨받지 않은 이유는 나중에 다른 그래프를 그려야 할 수 있기 때문에 `created`기능을 많이 쓰는것은 Vue구조가 복잡해 질 수 있기때문에 props를 이용해 그래프를 그리는것을 지향했다.
 
 ### Result
 - 두번째 세번째 그래프는 데이터가 하드코딩 되어있습니다. 
