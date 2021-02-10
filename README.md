@@ -46,7 +46,7 @@ Import:
 ```javascript
 import * as d3 from "d3";
 ```
-### Code Example Explain
+### LineChart.vue Code Explain
 
 Template:
 
