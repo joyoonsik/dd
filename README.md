@@ -32,7 +32,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 d3의 여러 버전을 관리하고 싶다면 
 [여기를](https://stackoverflow.com/questions/16156445/multiple-versions-of-a-script-on-the-same-page-d3-js) 참고해주세요.
 
-이 프로젝트 에서는 버전4만 사용하기 때문에 npm i d3뒤에 @4를 추가했습니다.
+LineChart 컴포넌트 에서는 버전4만 사용하기 때문에 npm i d3뒤에 @4를 추가했습니다.
 ### Install
 
 ```bash
