@@ -168,11 +168,11 @@ export default {
 1. `created`에서 `props`를 통해 데이터(json format)를 전달 받습니다.
 2. `mounted`기능을 통해 그래프가 그려집니다.
 
-### 이 프로젝트에서 Vue Component 구조
+### 추가한 Vue Component 구조
 
-### 컴포넌트간 데이터 송수신 
+### 추가한 컴포넌트간 데이터 송수신 
 
-## 참고 사이트 
+## 참고한 사이트 
 
 - [Data Visualization with Vue and D3](https://alligator.io/vuejs/visualization-vue-d3/)
 - [d3-graph-gallery](https://www.d3-graph-gallery.com/index.html)
