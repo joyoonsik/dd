@@ -5,15 +5,16 @@
     </div>
     <v-card class="TimeSeriesComp" elevation="4">
         <LineChart v-if="LineChartDataLoaded" :LineChartData="tmsg"/>
+        <LineChart2 v-if="LineChartDataLoaded"/>
     </v-card>
   </div>
 </template>
 
 <script>
 import EventBus from '../EventBus';
-
-import Vue from 'vue'
+import Vue from 'vue';
 import LineChart from './LineChart.vue';
+import LineChart2 from './LineChart2.vue';
 Vue.config.productionTip = false;
 
 
@@ -39,7 +40,7 @@ export default {
       } 
     },
     components:{
-        LineChart
+        LineChart, LineChart2
     }
 }
 
