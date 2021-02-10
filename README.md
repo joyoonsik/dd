@@ -168,7 +168,7 @@ export default {
 1. `created`에서 `props`를 통해 데이터(json format)를 전달 받습니다.
 2. `mounted`기능을 통해 그래프가 그려집니다.
 
-### 추가한 Vue Component 구조
+### 현재 Vue Component 구조 
 
 ### 추가한 컴포넌트간 데이터 송수신
 
